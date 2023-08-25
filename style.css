@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(219, 225, 231);
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.from-key {
+    color: rgb(48, 22, 125);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.to-key {
+    color: rgb(48, 22, 125);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.note-from {
+    background-color: rgb(184, 210, 232);
+    margin-left: 5px;
+    width: 40px;
+    font-size: 16px;
+}
+
+.note-from:hover {
+    background-color: rgb(223, 231, 239);
+    cursor: pointer;
+}
+
+.note-to {
+    background-color: rgb(184, 210, 232);
+    margin-left: 5px;
+    width: 40px;
+    font-size: 16px;
+}
+
+.note-to:hover {
+    background-color: rgb(223, 231, 239);
+    cursor: pointer;
+}
+
+.transpose-note {
+    background-color: rgb(184, 210, 232);
+    margin-left: 5px;
+    width: 40px;
+    font-size: 16px;
+}
+
+.transpose-note:hover {
+    background-color: rgb(223, 231, 239);
+    cursor: pointer;
+}
+
+.transpose-notes {
+    display: none;
+}
+
+.bgColor {
+    background-color: rgb(135, 216, 119);
+    width: 40px;
+    height: 26px;
+}
+
+.answer {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+
+
+.final-note-div {
+    color: rgb(48, 22, 125);
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 800;
+
+
+}
+
+.reset {
+    font-size: 20px;
+    background-color: rgb(184, 210, 232);
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.reset:hover {
+    background-color: rgb(223, 231, 239);
+    cursor: pointer;
+}
